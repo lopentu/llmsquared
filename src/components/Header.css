@@ -1,0 +1,45 @@
+
+  .header-title2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+      max-width: 90%; /* 限制最大宽度 */
+      white-space: nowrap; /* 防止文本换行 */
+      text-overflow: ellipsis; /* 文本溢出显示省略号 */
+      font-family: Verdana, sans-serif;
+      font-weight: bold;
+      color: black;
+      font-size: x-large;
+      /*font-style: italic;*/
+    }
+
+    .w-nav2 {
+        z-index: 1000;
+        background: #fff;
+        /*position: relative;*/ /*決定是否sticky*/
+    }
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: .9;
+
+}
+
+.first-word {
+    display: inline; 
+    color: black; 
+  }
+  
+  .second-word {
+    display: inline; 
+    color: green; 
+  }
+  
+  .logo {
+    height: 40px; /* 調整高度 */
+    width: auto; /* 讓寬度自動調整 */
+    vertical-align: middle; /* 垂直對齊 */
+    margin-right: 10px; /* 與文字距離 */
+  }

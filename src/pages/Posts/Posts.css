@@ -1,0 +1,108 @@
+.container-posts {
+    width: 60%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 80 24px;
+    padding-top: 100px;
+
+}
+
+.content-posts {
+    margin: 0 auto; 
+    /*text-align: center; 
+    margin-left: 100px; */
+    padding-bottom: 300px;
+
+}
+
+.title {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.post-title {
+    color: #323232;
+    text-align: left;
+    text-transform: uppercase;
+    flex-direction: column;
+    /*align-items: center;*/
+    display: flex;
+    font-size: 1.2rem;
+}
+.post-title h1{
+    font-size: 3rem;
+}
+
+
+.post-details{
+    padding: 0rem 0rem;
+    padding-top: 2rem;
+}
+.author {
+    display: flex;
+    align-items: center;
+}
+.author img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.post-details h3{
+    font-size: 1rem;
+}
+
+/*文章列表*/
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    flex: 0 0 30%; 
+    margin-right: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    flex: 1; 
+}
+
+.description h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.description p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.description a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.post-content p {
+    margin-bottom: 20px;
+    font-size: 1.2rem; 
+}

@@ -1,0 +1,181 @@
+/*.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 讓容器充滿整個視窗高度 
+  }*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* 垂直居中 */
+    height: 100vh;
+    justify-content: center;
+    width: 100%; /* 調整寬度，如果需要的話 */
+    text-align: center; /* 水平置中 */
+
+  }
+  
+  .container h1 {
+    font-size: 7rem; /* 調整網頁名稱的字體大小 */
+    margin-top: -400px;
+  }
+
+  .title-container {
+    display: flex;
+    align-items: center; /* 垂直置中 */
+  }
+
+  .title-word {
+    animation: color-animation 4s linear infinite;
+    margin-right: 10px; /* 調整單詞之間的間距 */
+
+  }
+  
+  .title-word-1 {
+    --color-1: #008000;
+    --color-2: #00000;
+    --color-3: #00000;
+  }
+  
+  .title-word-2 {
+    --color-1: #00000;
+    --color-2: #008000;
+    --color-3: #00000;
+  }
+  
+  .title-word-3 {
+    --color-1: #00000;
+    --color-2: #00000;
+    --color-3: #008000;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 8.5vw;
+    text-transform: uppercase;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* button */ 
+  
+
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* 將內容水平置中 */
+    align-items: center; /* 將內容垂直置中 */
+    margin-top: -30rem;
+    margin-bottom: 20rem;
+  }
+
+  .btn {
+    position: relative;
+    min-width: 300px;
+    border: 3px solid #C4D7B2;
+    border-radius: 30px;
+    background: transparent;
+    color: #C4D7B2;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border 0.5s ease-out;
+    transition-delay: 0.8s;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 20px 40px;
+
+    margin-top: 50px; /* 調整按鈕組的上邊距 */
+    margin: 0 30px; /* 調整按鈕之間的水平間距 */
+
+
+
+}
+.btn:before,
+.btn:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    margin: auto;
+    content: 'Button';
+    border-radius: 50%;
+    display: block;
+    width: 22em;
+    height: 22em;
+    left: -5.5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    transition-delay: 0.75s;
+}
+.btn:after {
+    transition-delay: 0.25s;
+}
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+.btn:hover {
+    color: #FFFF;
+    border-color: #A0C49D;
+    animation: anim 1.5s ease;
+    transition: border 0.2s ease;
+}
+.btn:hover::before {
+    box-shadow: inset 0 0 0 11em #C4D7B2;
+    transition-delay: 0.05s;
+}
+.btn:hover::after {
+    box-shadow: inset 0 0 0 11em #A0C49D;
+    transition-delay: 0.5s;
+}
+@keyframes anim {
+    0% { color: #E1ECC8; }
+    50% { color: #515E63; }
+    100% { color: #ffffff; }
+}
+  

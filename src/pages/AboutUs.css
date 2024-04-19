@@ -1,0 +1,88 @@
+.small-font {
+    font-size: 15px; 
+  }
+
+.img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 40px;
+  }
+
+.sponsors {
+  display: flex;
+  align-items: center;
+}
+.sponsors h2{
+  font-weight: bold; 
+  color: #76b900; 
+}
+
+.space {
+  margin: 0 50px; 
+}
+
+.square {
+  position: relative; /* 設置為相對定位 */
+  width: 1000px;
+  height: 500px;
+  background-color: #ffffff; /* 方形的背景顏色 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 外邊陰影 */
+  border-radius: 30px;
+  margin: 50px auto; /* 將方形水平置中 */
+  text-align: center;
+}
+
+.google-button-container {
+  position: absolute; /* 將按鈕容器設置為絕對定位 */
+  top: 40%; /* 將按鈕置於 square 中央 */
+  left: 50%; /* 將按鈕置於 square 中央 */
+  transform: translate(-50%, -50%); /* 將按鈕向上和向左移動一半的高度和寬度，實現垂直和水平置中 */
+}
+
+.inviting p {
+  font-size: 20px;
+  position: absolute; /* 將段落設置為絕對定位 */
+  top: calc(60% - 10px); /* 將段落置於 square 中央（減去段落高度的一半） */
+  left: 50%; /* 將段落置於 square 中央 */
+  transform: translateX(-50%); /* 將段落向左移動一半的寬度，實現水平置中 */
+}
+
+
+.google-button {
+  color: #8ADAB2;
+  letter-spacing: 1px;
+  background-color: #fff;
+  border: 1px solid #8ADAB2;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 40px;
+  font-weight: 700;
+  transition: all .2s;
+  display: flex;
+  padding: 50px 80px; /* 調整填充空間 */
+
+
+}
+
+.google-w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #8ADAB2;
+  border: 10;
+  border-radius: 30;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 50px 80px; /* 調整填充空間 */
+  transition: background-color .3s ease; /* 添加過渡效果 */
+
+
+}
+
+.google-w-button:hover {
+  background-color: #D0F288; /* 按鈕變淡 */
+}

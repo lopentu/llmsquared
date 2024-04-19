@@ -1,0 +1,130 @@
+/* 動畫 */
+@keyframes sticky-header {
+  from {
+    height: 100vh;
+    font-size: calc(2rem + 8vw);
+  }
+
+  to {
+    height: 10vh;
+    font-size: 2rem;
+  }
+}
+
+
+
+
+.ani-header {
+  position: fixed;
+  height: 1rem;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  opacity: 1;
+
+  height: 10vh;
+  font-size: 2rem;
+
+  /*background-image: url('https://picsum.photos/id/236/1920/1080');*/
+  background-position: center;
+  background-size: cover;
+  color: black;
+  /* animation: sticky-header ease-in-out 1s both; */
+  /* animation-timeline: scroll();
+  animation-range: 0vh 100vh; */
+  transition: all 0.3s ease-in-out;
+}
+
+.full-screen {
+  height: 100vh;
+  font-size: calc(2rem + 5vw);
+}
+
+.logo {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  object-fit: cover; /* Maintain aspect ratio and scale to fit */
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out; /* Animate size change */
+}
+
+.full-screen .logo {
+  width: calc(100px + 3vw);  /* Adjust width calculation */
+  height: calc(100px + 3vw); /* Adjust height calculation */
+}
+
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 90%;
+  /* 限制最大宽度 */
+  white-space: nowrap;
+  /* 防止文本换行 */
+  text-overflow: ellipsis;
+  /* 文本溢出显示省略号 */
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+
+  /*font-style: italic;*/
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.first-word {
+  display: inline;
+  color: black;
+}
+
+.second-word {
+  display: inline;
+  color: green;
+}
+
+
+
+
+
+.typewriter {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  /*letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  line-height: 1.5;
+  /* 行高 */
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
