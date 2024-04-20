@@ -40,7 +40,7 @@ const News = () =>{
                         </div>
                             <div className='home-project-item-list w-dyn-list'>
                                 <div role='list' className="project-items "> {/*w-dyn-items*/}
-                                    <BlogCard title='4/20『法律黑客松』--台大法學院霖澤館1901 (9:00-17:00)' coverPhoto={white} datePublish='2024-04-20' postPath='/news/hackathon'/>
+                                    <BlogCard title='4/20『法律黑客松』--台大法學院霖澤館1501 (9:00-17:00)' coverPhoto={white} datePublish='2024-04-20' postPath='/news/hackathon'/>
                                 </div>
                             </div>
 

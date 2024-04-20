@@ -18,7 +18,7 @@ const Hackathon = () =>{
                     <header className="title">
                         <div className='post-title '>
 
-                                <h1>4/20『法律黑客松』--台大法學院霖澤館1901 (9:00-17:00)</h1>
+                                <h1>4/20『法律黑客松』--台大法學院霖澤館1501 (9:00-17:00)</h1>
                                 <h3>
                                     <strong>
                                         "Legal Hackathon" in room 1901 of Tsai Lecture Hall, College of Law, NTU
