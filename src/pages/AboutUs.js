@@ -85,7 +85,7 @@ const AboutUs = () =>{
                                     coleader={<span>計畫參與<br/>學生</span>} 
                                     coleaderName = {
 
-                                        <span>國立台灣大學語言學研究所 <br/>連大成、陳品而、王伯雅、古貿昌<br/>陳韋伶、顏巧函、紀柔安</span>
+                                        <span>國立台灣大學語言學研究所 <br/>連大成、陳品而、王伯雅、古貿昌<br/>陳韋伶、周昕妤、顏巧函、紀柔安</span>
 
                                                     }
                                 />
