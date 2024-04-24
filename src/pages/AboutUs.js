@@ -106,7 +106,7 @@ const AboutUs = () =>{
                                     leaderName='國立台灣大學法律學院 黃詩淳教授' 
                                     coleader={<span>計畫參與<br/>學生</span>} 
                                     coleaderName = {
-                                                        <span>國立台灣大學法律學院 <br/>國立台灣大學法律學院 </span>
+                                                        <span>國立台灣大學法律研究所 <br/>邱怡凱、王唯馨、羅元廷、尤映筑<br/>何智凡</span>
                                                     }                                       
                                             
                                             
@@ -153,7 +153,7 @@ const AboutUs = () =>{
                                     leaderName={<span>臺北醫學大學醫療暨生物科技法律研究所<br/>邵軒磊副教授</span> }
                                     coleader={<span>計畫參與<br/>學生</span>} 
                                     coleaderName = {
-                                                        <span>臺北醫學大學醫療暨生物科技法律研究所 <br/>臺北醫學大學醫療暨生物科技法律研究所 </span>
+                                                        <span>臺北醫學大學醫療暨生物科技法律研究所 <br/>黃書葦</span>
                                                     }
                                 />
 
