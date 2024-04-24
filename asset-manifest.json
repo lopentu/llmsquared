@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/llmsquared/static/css/main.cdc117b5.css",
-    "main.js": "/llmsquared/static/js/main.27982f24.js",
+    "main.js": "/llmsquared/static/js/main.b3de4d1b.js",
     "static/media/typing_cat.png": "/llmsquared/static/media/typing_cat.fd4f8496ebfc8b572179.png",
     "static/media/workflow.png": "/llmsquared/static/media/workflow.f00e519a1f234845de23.png",
     "static/media/main-project.png": "/llmsquared/static/media/main-project.aa4327bad6c1e37e3904.png",
@@ -17,10 +17,10 @@
     "static/media/llm_logo.png": "/llmsquared/static/media/llm_logo.4f091524ff780a50ca33.png",
     "index.html": "/llmsquared/index.html",
     "main.cdc117b5.css.map": "/llmsquared/static/css/main.cdc117b5.css.map",
-    "main.27982f24.js.map": "/llmsquared/static/js/main.27982f24.js.map"
+    "main.b3de4d1b.js.map": "/llmsquared/static/js/main.b3de4d1b.js.map"
   },
   "entrypoints": [
     "static/css/main.cdc117b5.css",
-    "static/js/main.27982f24.js"
+    "static/js/main.b3de4d1b.js"
   ]
 }
